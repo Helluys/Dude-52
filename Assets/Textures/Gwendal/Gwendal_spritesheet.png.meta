@@ -41,7 +41,7 @@ TextureImporter:
   textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
-    filterMode: 0
+    filterMode: 2
     aniso: 16
     mipBias: -1
     wrapMode: 1
@@ -58,14 +58,11 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
-  spriteTessellationDetail: -1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    serializedVersion: 2
     sprites:
-    - serializedVersion: 2
-      name: Gwendal_body_L
+    - name: Gwendal_body_L
       rect:
         serializedVersion: 2
         x: 0
@@ -75,10 +72,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Gwendal_face_L
+      outline:
+      - - {x: -44.5, y: 31}
+        - {x: -44.5, y: -31}
+        - {x: 43.5, y: -31}
+        - {x: 44.5, y: -22}
+        - {x: 44.5, y: 31}
+    - name: Gwendal_face_L
       rect:
         serializedVersion: 2
         x: 0
@@ -88,10 +88,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Gwendal_head_side_L
+      outline:
+      - - {x: -32.5, y: 43.5}
+        - {x: -33.5, y: 42.5}
+        - {x: -33.5, y: -43.5}
+        - {x: 33.5, y: -43.5}
+        - {x: 33.5, y: 41.5}
+        - {x: 15.5, y: 43.5}
+    - name: Gwendal_head_side_L
       rect:
         serializedVersion: 2
         x: 67
@@ -102,9 +106,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Gwendal_right_foot_L
+    - name: Gwendal_right_foot_L
       rect:
         serializedVersion: 2
         x: 13
@@ -115,9 +117,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Gwendal_mouth
+    - name: Gwendal_mouth
       rect:
         serializedVersion: 2
         x: 91
@@ -128,9 +128,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Gwendal_eye
+    - name: Gwendal_eye
       rect:
         serializedVersion: 2
         x: 93
@@ -141,9 +139,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Gwendal_eyebrow_L
+    - name: Gwendal_eyebrow_L
       rect:
         serializedVersion: 2
         x: 92
@@ -154,9 +150,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Gwendal_left_foot_L
+    - name: Gwendal_left_foot_L
       rect:
         serializedVersion: 2
         x: 45
@@ -167,9 +161,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Gwendal_right_foot_F
+    - name: Gwendal_right_foot_F
       rect:
         serializedVersion: 2
         x: 117
@@ -180,9 +172,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Gwendal_left_foot_F
+    - name: Gwendal_left_foot_F
       rect:
         serializedVersion: 2
         x: 151
@@ -193,9 +183,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Gwendal_body_F
+    - name: Gwendal_body_F
       rect:
         serializedVersion: 2
         x: 101
@@ -205,10 +193,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Gwendal_face_F
+      outline:
+      - - {x: -35.5, y: 31}
+        - {x: -43.5, y: 22}
+        - {x: -43.5, y: -20}
+        - {x: -42.5, y: -21}
+        - {x: -35.5, y: -31}
+        - {x: 35.5, y: -31}
+        - {x: 43.5, y: -23}
+        - {x: 43.5, y: 24}
+        - {x: 35.5, y: 31}
+    - name: Gwendal_face_F
       rect:
         serializedVersion: 2
         x: 108
@@ -218,8 +213,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
+      outline:
+      - - {x: -30.5, y: 43.5}
+        - {x: -36.5, y: 41.5}
+        - {x: -36.5, y: -43.5}
+        - {x: 35.5, y: -43.5}
+        - {x: 36.5, y: -24.5}
+        - {x: 36.5, y: 42.5}
+        - {x: 26.5, y: 43.5}
     outline: []
   spritePackingTag: 
   userData: 
