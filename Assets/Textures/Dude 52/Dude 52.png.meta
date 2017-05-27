@@ -1,10 +1,14 @@
 fileFormatVersion: 2
 guid: b3ecddcaa95b3ec4f8c355782c868b74
-timeCreated: 1495850764
+timeCreated: 1495854726
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Dude 52_0
+    21300000: Dude 52 up
+    21300002: Dude 52 right
+    21300004: Dude 52 back
+    21300006: Dude 52 left
+    21300008: Dude 52 reveal
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -54,13 +58,65 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Dude 52_0
+      name: Dude 52 up
       rect:
         serializedVersion: 2
-        x: 243
-        y: 163
-        width: 12
-        height: 26
+        x: 209
+        y: 12
+        width: 87
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dude 52 right
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 216
+        width: 108
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dude 52 back
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 219
+        width: 86
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dude 52 left
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 221
+        width: 108
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dude 52 reveal
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 425
+        width: 159
+        height: 172
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
