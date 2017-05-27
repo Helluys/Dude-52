@@ -1,0 +1,8 @@
+<Level>
+  <MoveList>
+    <Move>Left</Move>
+    <Move>Up</Move>
+    <Move>Right</Move>
+    <Move>Left</Move>
+  </MoveList>
+</Level>
